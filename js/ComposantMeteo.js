@@ -15,7 +15,6 @@ export class ComposantMeteo {
             </tbody>
         </table>
         `;
-
 		let tr = "";
 		data.fcst.forEach((day) => {
 			tr += `
@@ -29,9 +28,6 @@ export class ComposantMeteo {
 		});
 
 		table = table.replace("%s", tr);
-
-		console.log(table);
-
 		document.querySelector(container).innerHTML = table;
 	}
 }

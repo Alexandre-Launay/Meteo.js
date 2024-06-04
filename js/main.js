@@ -1,5 +1,5 @@
-import { ServiceMeteo } from "/ServiceMeteo.js";
-import { ComposantMeteo } from "/ComposantMeteo.js";
+import { ServiceMeteo } from "./ServiceMeteo.js";
+import { ComposantMeteo } from "./ComposantMeteo.js";
 
 window.onload = () => {
 	document.querySelector("button").addEventListener("click", () => {
